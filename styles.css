@@ -12,6 +12,7 @@
 body {
   text-align: center;
   cursor: default;
+  background-color: #f4bbff;
 }
 
 /**************************************************** header */
@@ -58,7 +59,7 @@ body {
 .form-bg input[type="text"]:hover,
 .form-bg input[type="email"]:hover {
   outline: none;
-  border: #d70040 solid 0.3rem;
+  border: #cf71af solid 0.3rem;
 }
 
 .form-bg button {
@@ -74,8 +75,8 @@ body {
 }
 
 .form-bg button:hover {
-  background-color: #d70040;
-  border: #d70040 solid 0.5rem;
+  background-color: #cf71af;
+  border: #cf71af solid 0.5rem;
 }
 
 @media (min-width: 800px) {
@@ -96,4 +97,16 @@ body {
   .form-bg button {
     font-size: 2rem;
   }
+}
+
+/**************************************************** curved */
+.curved {
+  z-index: -1;
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  top: 0;
+  border-bottom-left-radius: 80% 20%;
+  border-bottom-right-radius: 80% 20%;
+  background: linear-gradient(180deg, #f4bbff, #cf71af);
 }
