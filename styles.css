@@ -1,13 +1,56 @@
 /**************************************************** custom default */
+@import url("https://fonts.googleapis.com/css2?family=Dekko&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Dekko", Impact, "Arial Narrow Bold", sans-serif,
+    Haettenschweiler, cursive;
 }
 
 body {
-  background-color: red;
   text-align: center;
   cursor: default;
+}
+
+/**************************************************** header */
+.main-tile h1 {
+  margin: 3rem 0;
+  font-size: 3rem;
+}
+
+/**************************************************** form */
+.form-bg {
+  display: grid;
+  justify-content: center;
+  justify-items: start;
+  border-radius: 2rem;
+  margin: 0 0.5rem;
+  padding: 2rem 0;
+  background-color: #b2ec5d;
+}
+
+.form-bg label {
+  font-size: 1.5rem;
+}
+
+.form-bg input[type="text"],
+.form-bg input[type="email"] {
+  width: 17rem;
+  height: 2.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.form-bg button {
+  cursor: pointer;
+  margin-top: 2rem;
+  outline: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 2rem;
+  background-color: #e8f48c;
+  border: #e8f48c;
 }
