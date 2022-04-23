@@ -13,13 +13,17 @@
         <h1>Contact Form</h1>
       </header>
       <section>
-        <form action="#" class="form-bg">
+        <form
+          class="form-bg"
+          method="post"
+          onsubmit="alert('Thanks for subscribing!');"
+        >
           <label for="firstName">First Name</label>
-          <input type="text" name="firstName" id="firstName" />
+          <input type="text" name="firstName" id="firstName" required />
           <label for="lastName">Last Name</label>
-          <input type="text" name="lastName" id="lastName" />
+          <input type="text" name="lastName" id="lastName" required />
           <label for="Email">Email</label>
-          <input type="email" name="Email" id="Email" />
+          <input type="email" name="Email" id="Email" required />
           <button>Subscribe</button>
         </form>
       </section>
