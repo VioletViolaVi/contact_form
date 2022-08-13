@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- custom css links -->
+    <link rel="stylesheet" href="./static/css/universal.css" />
+    <link rel="stylesheet" href="./static/css/header.css" />
+    <link rel="stylesheet" href="./static/css/form.css" />
+    <link rel="stylesheet" href="./static/css/curve_bg.css" />
+    <link rel="stylesheet" href="./static/css/switch_link.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <header class="main-tile">
+        <h1>Login</h1>
+      </header>
+      <section>
+        <div class="curved"></div>
+        <form
+          class="form-bg"
+          method="post"
+          onsubmit="alert('Thanks for logging in!');"
+        >
+          <label for="firstName">First Name</label>
+          <input type="text" name="firstName" id="firstName" required />
+
+          <label for="lastName">Last Name</label>
+          <input type="text" name="lastName" id="lastName" required />
+
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required />
+
+          <button>Login</button>
+        </form>
+
+        <aside id="switchLink">
+          <p>Don't have an account? <a href="/index.html">Sign Up</a></p>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
