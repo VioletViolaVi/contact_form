@@ -58,10 +58,11 @@
   }
 
   .form-bg label {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .form-bg input[type='text'],
+  .form-bg input[type='password'],
   .form-bg input[type='email'] {
     width: 33rem;
   }
