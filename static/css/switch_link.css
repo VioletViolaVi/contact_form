@@ -12,3 +12,9 @@
   color: #ff43a4;
   font-weight: 900;
 }
+
+@media (min-width: 800px) {
+  #switchLink p {
+    font-size: 2rem;
+  }
+}
