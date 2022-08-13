@@ -1,0 +1,72 @@
+/**************************************************** form */
+.form-bg {
+  display: grid;
+  justify-content: center;
+  justify-items: start;
+  border-radius: 2rem;
+  margin: auto;
+  width: 19rem;
+  padding: 2rem 0;
+  background-color: #ffe4e1;
+  border: #ff43a4 solid 0.3rem;
+}
+
+.form-bg label {
+  font-size: 2rem;
+}
+
+.form-bg input[type='text'],
+.form-bg input[type='password'],
+.form-bg input[type='email'] {
+  width: 17rem;
+  height: 3rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  outline: none;
+  border: #ff43a4 solid 0.3rem;
+  border-radius: 1rem;
+}
+
+.form-bg input[type='text']:hover,
+.form-bg input[type='password']:hover,
+.form-bg input[type='email']:hover {
+  outline: none;
+  border: #cf71af solid 0.3rem;
+}
+
+.form-bg button {
+  cursor: pointer;
+  margin-top: 2rem;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  border-radius: 4rem;
+  background-color: #ff43a4;
+  border: #ff43a4 solid 0.5rem;
+}
+
+.form-bg button:hover {
+  background-color: #cf71af;
+  border: #cf71af solid 0.5rem;
+}
+
+@media (min-width: 800px) {
+  .form-bg {
+    width: 35rem;
+    padding: 0.5rem 0;
+  }
+
+  .form-bg label {
+    font-size: 3rem;
+  }
+
+  .form-bg input[type='text'],
+  .form-bg input[type='email'] {
+    width: 33rem;
+  }
+
+  .form-bg button {
+    font-size: 2rem;
+  }
+}

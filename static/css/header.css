@@ -1,0 +1,12 @@
+/**************************************************** header */
+.main-tile h1 {
+  margin: 2rem 0 1rem;
+  font-size: 3rem;
+}
+
+@media (min-width: 800px) {
+  .main-tile h1 {
+    margin: 0;
+    font-size: 4rem;
+  }
+}

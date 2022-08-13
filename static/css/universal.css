@@ -1,0 +1,16 @@
+/**************************************************** custom default */
+@import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dekko', Impact, 'Arial Narrow Bold', sans-serif,
+    Haettenschweiler, cursive;
+}
+
+body {
+  text-align: center;
+  cursor: default;
+  background-color: #f4bbff;
+}

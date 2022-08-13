@@ -1,0 +1,11 @@
+/**************************************************** curved */
+.curved {
+  z-index: -1;
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  top: 0;
+  border-bottom-left-radius: 80% 20%;
+  border-bottom-right-radius: 80% 20%;
+  background: linear-gradient(180deg, #f4bbff, #cf71af);
+}
